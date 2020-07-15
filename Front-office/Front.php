@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Site routing</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style/vitrine.css">
     </head>
     <body>
         <?php
@@ -15,6 +13,15 @@
         }
         elseif($_GET['page'] == 'contact'){
             include('Contact.php');
+        }
+        elseif($_GET['page'] == 'administration'){
+            include('Login.php');
+        }
+        elseif($_GET['page'] == 'site-vitrine'){
+            include('vitrine-accueil.html');
+        }
+        elseif($_GET['page'] == 'mon-cv'){
+            include('mon-cv.html');
         }
         else{
             include('404.php');

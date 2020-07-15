@@ -18,11 +18,11 @@
                 <form action="contact-form.php" method="POST">
                          
                     <input type="text" id="name" name="Name" placeholder="Votre nom - prénom">
-                  
+                    <br>
                     <input type="text" id="mail" name="e-mail" placeholder="votre e-mail">
-                
+                    <br>
                     <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
-                  
+                    <br>
                     <input type="submit" value="envoyer">
                   
                 </form>
@@ -31,6 +31,6 @@
     </body>
 
     <footer>
-        <?php include('Footer.php'); ?>
+        <?php include('Footer-front.php'); ?>
     </footer>
 </html>

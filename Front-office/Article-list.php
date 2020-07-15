@@ -15,6 +15,6 @@
     </body>
 
     <footer>
-        <?php include('Footer.php'); ?>
+        <?php include('Footer-front.php'); ?>
     </footer>
 </html>
