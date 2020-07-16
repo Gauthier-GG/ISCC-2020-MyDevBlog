@@ -94,3 +94,53 @@ p{
     color: #17C1FF;
     
 }
+
+.formulaire-article{
+    border-radius: 10em;
+    background-image: url("../Front-office/Style/journal.jpg");
+    background-size: cover;
+    margin: auto;
+    padding: 2% 7%;
+    border: #ff8717 1.5mm ridge;
+    max-width: 200px;
+}
+
+.formulaire-article input[type=submit]{
+    background-color: #e77a14;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 3.6em;
+}
+
+.formulaire-article input[type=submit]:active {
+    box-shadow: -1px 2px 12px 5px rgb(85, 83, 83) inset;
+  }
+
+  .formulaire-utilisateur{
+    border-radius: 6em;
+    background-image: url("../Front-office/Style/anonymous.jpg");
+    background-size: cover;
+    margin: auto;
+    padding: 2% 5%;
+    border: #ff8717 1.5mm ridge;
+    max-width: 200px;
+}
+
+.formulaire-utilisateur input[type=submit]{
+    background-color: #e77a14;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 3.6em;
+}
+
+.formulaire-utilisateur input[type=submit]:active {
+    box-shadow: -1px 2px 12px 5px rgb(85, 83, 83) inset;
+  }
