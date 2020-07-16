@@ -1,0 +1,179 @@
+html{
+    background-color: #151b57;
+}
+.image1{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: 25em;
+    top: 7em;
+}
+
+.image2{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: 68em;
+    top: 7em;
+}
+
+.titre{
+    background-image: url("Style/feu.jpeg");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 80px;
+    position: relative;
+    bottom: 40px;
+    
+}
+
+.navigation {
+    display: inline-block;
+    flex-direction: row;
+    background-image: url("Style/feu2.jpg");
+    background-size: initial;
+    padding: 8px 25px;
+    margin: 0px;
+    color: white;
+    text-align:center;
+    width: 97.4%;
+    vertical-align: middle;
+    position: relative;
+    bottom: 3.2em;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    display: inline;
+}
+
+.navigation a {
+    display: inline-block;
+    margin: 0 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigation a:visited{
+    color: rgb(255, 255, 255);
+}
+
+.navigation a:hover{
+    color: #17C1FF;
+}
+
+
+h2{
+    background-image: url("Style/feu.jpeg");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    bottom: 30px;
+}
+
+p{
+    color: rgb(209, 242, 250);
+    text-align: center;
+}
+
+.image3{
+    width: 350px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding: 100px;
+}
+
+.img1{
+    width: 80px;
+    height: 80px;
+}
+
+.img2{
+    width: 80px;
+    height: 80px;
+}
+
+.img3{
+    width: 80px;
+    height: 80px;
+}
+
+.formulaire{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 10em;
+    background-image: url("Style/mustanggt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 1.4% 10%;
+    border: #ff8717 1.5mm ridge;
+    max-width: 100px;
+}
+
+.formulaire input[type=submit] {
+    background-color: #e77a14;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 3.6em;
+  }
+
+.formulaire input[type=submit]:hover {
+    background-color: #17C1FF;
+  }
+
+.formulaire input[type=submit]:active {
+    box-shadow: -1px 2px 12px 5px rgb(85, 83, 83) inset;
+  }
+
+.login{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    background-image: url("Style/hack.png");
+    background-size: cover;
+    margin: auto;
+    padding: 1.4% 5%;
+    border: #ff8717 1.5mm ridge;
+    max-width: 100px;
+}
+
+.login input[type=submit]{
+    background-color: #e77a14;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 2em;
+}
+
+label{
+    color: ivory;
+
+}

@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="style.css">
 <nav class='navigation'>
     <ul>
         <li><a href="Front.php?page=accueil">Accueil</a></li>

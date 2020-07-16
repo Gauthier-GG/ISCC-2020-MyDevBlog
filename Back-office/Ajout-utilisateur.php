@@ -3,11 +3,14 @@
     <head>
         <title>Accueil</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style-back.css">
     </head>
     <header>
         <?php include('Back-header.php'); ?>
     </header>
-    
+    <nav>
+        <?php include('Nav-back.php')?>
+    </nav>
     <body>
     <main>
         <h2>Nouvel utilisateur</h2>

@@ -3,6 +3,7 @@
     <head>
         <title>Accueil back-office</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style-back.css">
     </head>
     <header>
         <?php include('Back-header.php'); ?>
@@ -13,6 +14,6 @@
     
     <body>
     <h2>Administrateur</h2>
-    <p>Bienvenu l'admin, amuses toi bien</p>
+    <p>Bienvenue l'admin, amuses toi bien</p>
     </body>
 </html>

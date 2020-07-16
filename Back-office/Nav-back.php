@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="style-back.css">
 <nav class='navigation'>
     <ul>
         <li><a href="Back.php?page=ajout-article">Ajouter un article</a></li>

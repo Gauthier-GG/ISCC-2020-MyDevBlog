@@ -12,6 +12,7 @@
     </nav>
     
     <body>
+        <h2>Liste des articles</h2>
     </body>
 
     <footer>
